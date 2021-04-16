@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font: 14px/20px Arial, sans-serif;
+  color: #5c646e;
+  background: url(../images/bg-body.png);
+}
+a {
+}
+.header-wrap {
+  background: url(../images/bg-header.png);
+}
+.header {
+  height: 72px;
+  width: 980px;
+  margin: auto;
+  background: #2f363e;
+  padding: 20px 0 0 8px;
+}
+.slogan {
+  display: block;
+  font: bold 12px/20px Arial, sans-serif;
+  /* font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Arial, sans-serif; */
+  color: #c9c7c7;
+}
+.content {
+  width: 980px;
+  margin: auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.nav {
+  background: #ff1744;
+  overflow: hidden;
+}
+.nav ul {
+  padding-left: 30px;
+}
+.nav ul li {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 58px 8px 0;
+}
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.intro {
+  width: 980px;
+  margin: auto;
+  background: #282d33;
+  padding: 27px 0 0 47px;
+}
+.intro .title {
+  font-size: 30px;
+  line-height: 34px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+}
+.intro {
+  background: #282d33;
+  padding: 48px 0 0 28px;
+}
+.intro .title {
+  font-size: 30px;
+  line-height: 34px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+}
+.intro .title::first-letter {
+  color: #f00;
+}
+.intro .title span {
+  display: block;
+  color: #c9c7c7;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.intro p {
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 22px;
+  font-weight: bold;
+}
